@@ -1,0 +1,85 @@
+
+.open-sans{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  .header{
+      background: url(../images/developer.png) , url(../images/header_bg.png);
+      background-repeat: no-repeat;
+      background-position: top left, right bottom;
+  }
+  /* navbar design***************************************************************** */
+  nav{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 30px 200px;
+  }
+  .nav-title{
+      font-size: 45px ;
+      font-weight: 800;
+  }
+  .text-primary{
+      color: #FD6E0A;
+  }
+  .dark2{
+      color: #474747;
+  }
+  .btn-primary{
+      height: 64px;
+      width: 150px;
+      background-color: #FD6E0A;
+      border: none;
+      border-radius: 8px;
+      font-size: 20px;
+      font-weight: 700;
+      color: #FFF;
+  }
+  .btn-primary:hover{
+      background-color: rgb(110, 112, 112);
+  }
+  nav ul{
+      display: flex;
+      gap: 30px;
+      align-items: center;
+  }
+  nav li a{
+      text-decoration: none;
+  }
+  nav ul li {
+      list-style: none;
+      
+   
+  }
+  /* **************************nav done***************** */
+  /* **************************banner design************ */
+  .banner{
+      display: flex;
+      justify-content: space-between;
+     
+      
+  }
+  .banner-content{
+      max-width:580px ;
+      margin: 0 30px 0px 200px;
+      align-items: center;
+  }
+  .banner-gretings{
+      font-size: 45px;
+      font-weight: 600;
+  }
+  .banner-title{
+      font-size: 85px;
+      font-weight: bold;
+  }
+  .banner-des{
+      font-size: 18px ;
+      font-weight: 400;
+  }
+  .banner-profile-pic{
+      width: 580px;
+      height: 670px;
+  }
